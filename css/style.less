@@ -1,1 +1,56 @@
-@import url(/fonts/opensans.css);
+@import url(../fonts/opensans.css);
+
+@gray: #333;
+@blue: #027ae0;
+@white: #fff;
+
+* {
+	-webkit-transition: all 200ms linear;
+	transition: all 200ms linear;
+}
+
+html,
+body {
+	background: #333;
+	font-family: 'OpenSansLight';
+	font-weight: 300;
+}
+
+header nav,
+main > section,
+footer > section {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+header {
+	nav {
+		ul {
+			width: 100%;
+			padding: 0;
+			list-style-type: none;
+			li {
+				display: inline-block;
+				width: 25%;
+				margin-right: -4px;
+				text-align: center;
+				a {
+					display: block;
+					position: relative;
+					color: @white - 60%;
+					text-decoration: none;
+					text-shadow: 0px 1px 15px rgba(0,0,0,0.8);
+					font-size: 24px;
+					&:hover {
+						color: @white;
+						text-shadow: 0px 1px 15px @blue;
+					}
+				}
+			}
+		}
+	}
+}
+
+main > section {
+	padding: 30px;
+}
