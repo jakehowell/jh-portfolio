@@ -1,0 +1,92 @@
+@font-face { font-family: 'OpenSansLight'; src: url(OpenSans-Light.ttf); }
+@font-face { font-family: 'OpenSansRegular'; src: url(OpenSans-Regular.ttf); }
+@font-face { font-family: 'OpenSansSemibold'; src: url(OpenSans-Semibold.ttf); }
+@font-face { font-family: 'OpenSansBold'; src: url(OpenSans-Bold.ttf); }				
+@font-face { font-family: 'OpenSansExtrabold'; src: url(OpenSans-ExtraBold.ttf); }
+@font-face { font-family: 'OpenSansLightItalic'; src: url(OpenSans-LightItalic.ttf); }
+@font-face { font-family: 'OpenSansRegualarItalic'; src: url(OpenSans-Italic.ttf); }
+@font-face { font-family: 'OpenSansSemiboldItalic'; src: url(OpenSans-SemiboldItalic.ttf); }
+@font-face { font-family: 'OpenSansBoldItalic'; src: url(OpenSans-BoldItalic.ttf); }
+@font-face { font-family: 'OpenSansExtraboldItalic'; src: url(OpenSans-ExtraBoldItalic.ttf); }
+
+//Mixins
+.opensans-light {
+	font-family: 'OpenSansLight', sans-serif;
+	font-weight: 300;
+	em {
+		font-family: 'OpenSansLightItalic', sans-serif;
+		font-style: normal;
+	}
+	strong {
+		font-family: 'OpenSansRegular', sans-serif;
+		font-weight: 400;
+	}
+	em strong,
+	strong em {
+		font-family: 'OpenSansRegularItalic';
+	}
+}
+.opensans-regular {
+	font-family: 'OpenSansRegular', sans-serif;
+	font-weight: 400;
+	em {
+		font-family: 'OpenSansRegularItalic', sans-serif;
+		font-style: normal;
+	}
+	strong {
+		font-family: 'OpenSansSemibold', sans-serif;
+		font-weight: 600;
+	}
+	em strong,
+	strong em {
+		font-family: 'OpenSansSemiboldItalic'
+	}
+}
+.opensans-medium {
+	font-family: 'OpenSansSemibold', sans-serif;
+	font-weight: 600;
+	em {
+		font-family: 'OpenSansSemiboldItalic', sans-serif;
+		font-style: normal;
+	}
+	strong {
+		font-family: 'OpenSansBold', sans-serif;
+		font-weight: 700;
+	}
+	em strong,
+	strong em {
+		font-family: 'OpenSansBoldItalic'
+	}
+}
+.opensans-bold {
+	font-family: 'OpenSansBold', sans-serif;
+	font-weight: 700;
+	em {
+		font-family: 'OpenSansBoldItalic', sans-serif;
+		font-style: normal;
+	}
+	strong {
+		font-family: 'OpenSansExtrabold', sans-serif;
+		font-weight: 800;
+	}
+	em strong,
+	strong em {
+		font-family: 'OpenSansExtraboldItalic'
+	}
+}
+.opensans-black {
+	font-family: 'OpenSansExtrabold', sans-serif;
+	font-weight: 800;
+	em {
+		font-family: 'OpenSansExtraboldItalic', sans-serif;
+		font-style: normal;
+	}
+	strong {
+		font-family: 'OpenSansExtrabold', sans-serif;
+		font-weight: bold;
+	}
+	em strong,
+	strong em {
+		font-family: 'OpenSansExtraboldItalic'
+	}
+}

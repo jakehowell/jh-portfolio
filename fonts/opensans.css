@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'OpenSansLight';
+  src: url(OpenSans-Light.ttf);
+}
+@font-face {
+  font-family: 'OpenSansRegular';
+  src: url(OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: 'OpenSansSemibold';
+  src: url(OpenSans-Semibold.ttf);
+}
+@font-face {
+  font-family: 'OpenSansBold';
+  src: url(OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: 'OpenSansExtrabold';
+  src: url(OpenSans-ExtraBold.ttf);
+}
+@font-face {
+  font-family: 'OpenSansLightItalic';
+  src: url(OpenSans-LightItalic.ttf);
+}
+@font-face {
+  font-family: 'OpenSansRegualarItalic';
+  src: url(OpenSans-Italic.ttf);
+}
+@font-face {
+  font-family: 'OpenSansSemiboldItalic';
+  src: url(OpenSans-SemiboldItalic.ttf);
+}
+@font-face {
+  font-family: 'OpenSansBoldItalic';
+  src: url(OpenSans-BoldItalic.ttf);
+}
+@font-face {
+  font-family: 'OpenSansExtraboldItalic';
+  src: url(OpenSans-ExtraBoldItalic.ttf);
+}
+.opensans-light {
+  font-family: 'OpenSansLight', sans-serif;
+  font-weight: 300;
+}
+.opensans-light em {
+  font-family: 'OpenSansLightItalic', sans-serif;
+  font-style: normal;
+}
+.opensans-light strong {
+  font-family: 'OpenSansRegular', sans-serif;
+  font-weight: 400;
+}
+.opensans-light em strong,
+.opensans-light strong em {
+  font-family: 'OpenSansRegularItalic';
+}
+.opensans-regular {
+  font-family: 'OpenSansRegular', sans-serif;
+  font-weight: 400;
+}
+.opensans-regular em {
+  font-family: 'OpenSansRegularItalic', sans-serif;
+  font-style: normal;
+}
+.opensans-regular strong {
+  font-family: 'OpenSansSemibold', sans-serif;
+  font-weight: 600;
+}
+.opensans-regular em strong,
+.opensans-regular strong em {
+  font-family: 'OpenSansSemiboldItalic';
+}
+.opensans-medium {
+  font-family: 'OpenSansSemibold', sans-serif;
+  font-weight: 600;
+}
+.opensans-medium em {
+  font-family: 'OpenSansSemiboldItalic', sans-serif;
+  font-style: normal;
+}
+.opensans-medium strong {
+  font-family: 'OpenSansBold', sans-serif;
+  font-weight: 700;
+}
+.opensans-medium em strong,
+.opensans-medium strong em {
+  font-family: 'OpenSansBoldItalic';
+}
+.opensans-bold {
+  font-family: 'OpenSansBold', sans-serif;
+  font-weight: 700;
+}
+.opensans-bold em {
+  font-family: 'OpenSansBoldItalic', sans-serif;
+  font-style: normal;
+}
+.opensans-bold strong {
+  font-family: 'OpenSansExtrabold', sans-serif;
+  font-weight: 800;
+}
+.opensans-bold em strong,
+.opensans-bold strong em {
+  font-family: 'OpenSansExtraboldItalic';
+}
+.opensans-black {
+  font-family: 'OpenSansExtrabold', sans-serif;
+  font-weight: 800;
+}
+.opensans-black em {
+  font-family: 'OpenSansExtraboldItalic', sans-serif;
+  font-style: normal;
+}
+.opensans-black strong {
+  font-family: 'OpenSansExtrabold', sans-serif;
+  font-weight: bold;
+}
+.opensans-black em strong,
+.opensans-black strong em {
+  font-family: 'OpenSansExtraboldItalic';
+}
